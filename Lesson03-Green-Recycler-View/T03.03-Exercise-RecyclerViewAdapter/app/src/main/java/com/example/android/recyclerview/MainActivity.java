@@ -22,7 +22,7 @@ import android.support.v7.widget.RecyclerView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final int NUM_LIST_ITEMS = 100;
+    private static final int NUM_LIST_ITEMS = 10;
 
     /*
      * References to RecyclerView and Adapter to reset the list to its
