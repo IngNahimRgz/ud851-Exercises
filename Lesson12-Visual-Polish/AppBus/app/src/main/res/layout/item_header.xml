@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="5dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/nombre_ruta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Titulo"/>
+
+        <TextView
+            android:id="@+id/tiempo_recorrido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="texto"/>
+
+        <TextView
+            android:id="@+id/frecuencia_paso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="texto"/>
+
+        <TextView
+            android:id="@+id/longitud_ruta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="texto"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:id="@+id/btn_ver_detalles"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Ver detalles" />
+
+            <Button
+                android:id="@+id/btn_editar_ahora"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Editar ahora" />
+
+            <Button
+                android:id="@+id/btn_ver_ruta"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Ver ruta"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

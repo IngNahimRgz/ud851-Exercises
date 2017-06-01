@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppBus</string>
+    <string name="title_home">Rutas</string>
+    <string name="title_dashboard">Explorar</string>
+    <string name="title_notifications">About</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDZPKn3P5D019O6dC2TkTXs5PPeuJ4QK7w</string>
+    <string name="title_activity_editar__ruta_">Editar_Ruta_Activity</string>
+    <string name="title_activity_ver__detalles_">Ver_Detalles_Activity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_exit">Salir</string>
+    <string name="title_activity_editar_ruta">Editar Ruta</string>
+</resources>
